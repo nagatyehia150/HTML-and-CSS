@@ -1,0 +1,75 @@
+
+<html>
+    <head>
+        <title></title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+body{
+    background-image:url("images/bg.jpg") ;
+    background-size:contain;
+    background-repeat: repeat-x;
+}
+form {
+background-color:lightgrey;
+ border-radius:50px;
+margin: 20px auto;
+padding: 50px;
+width: 220px;
+height:50%;
+
+}
+input{
+  border:none;
+   background: none;
+   border-bottom: 1px solid;
+   outline:none;
+}
+
+td{
+  text-align: center;
+}
+button[type="submit"] {
+  background-color: mediumorchid;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  width: 45%;
+}
+
+</style>
+</head>
+
+<body >
+    <form method="get" action="products.html"> 
+        <table   cellspacing="30px" align="center">
+            <tr>
+                <td><img src="images/user.png" /></td>
+            </tr>
+            <tr>
+                <td><input type="text"  placeholder="Enter Your Name"  name="name"required/></td>
+            </tr>
+
+            <tr>
+                <td><img src="images/lock1.jpg"></td>
+            </tr>
+            <tr>
+                <td><input type="password"  placeholder="Enter Your Password" name="password" required/></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Log In</button></td>
+            </tr>
+            <tr>
+                <td><a href="sign up.html">sign up</a></td>
+            </tr>
+            
+        </table>
+
+    </form>
+
+</body>
